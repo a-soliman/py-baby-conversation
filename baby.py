@@ -1,6 +1,2 @@
-answer = input('Why the sky is blue? ').strip().lower()
+import random
 
-while answer != "just because":
-	answer = input('But Why?: ')
-
-print('Ok. no worries...')
