@@ -12,3 +12,9 @@ def get_random_question():
 	return questions[rand_num]
 	
 
+answer = input(get_random_question()).strip().lower()
+
+while answer != "just because":
+	answer = input('But Why?: ').strip().lower()
+
+print('Ok. no worries...')
